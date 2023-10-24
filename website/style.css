@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    header {
+    background-color: #0a1656;
+    color: white;
+    padding: 20px;
+    }
+    
+    header h1 {
+    display: inline-block;
+    }
+    
+    header h1 a {
+    color: rgb(234, 234, 19);
+    text-decoration: none;
+    }
+    
+    nav {
+    background-color:#333;
+    }
+    
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+    
+    nav li {
+    float: left;
+    }
+    
+    nav li a {
+    display: block;
+    color: #eeeef5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    nav li a:hover {
+    background-color: #4c8aa2;
+    }
+    
+    main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    }
+    
+    footer {
+    background-color: #101067;
+    color: rgb(182, 165, 10);
+    padding: 20px;
+    text-align: center;
+    }
+    
+    table {
+    border-collapse: collapse;
+    }
+    
+    table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    }
+    
+    /* additional styles */
+    
+    button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+    .contact-form {
+        max-width: 500px;
+        margin: 0 auto;
+        }
+        
+        .form-field {
+        margin-bottom: 20px;
+        }
+        
+        .form-field label {
+        display: block;
+        margin-bottom: 10px;
+        }
+        
+        .form-field input,
+        .form-field textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        }
+        
+        .form-field textarea {
+        height: 100px;
+        }
+        
+        .form-field button {
+        background-color: #008CBA;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        }
+        
+        .contact-info {
+        margin-top: 30px;
+        }
+        
+        .contact-info p {
+        line-height: 1.5;
+        }
+        
+        @media(max-width: 768px) {
+        
+        .contact-form {
+        max-width: 100%;
+        }
+        
+        .form-field {
+        margin-bottom: 10px;
+        }
+        
+        }
+        body { font-family: Arial, sans-serif; } 
+        h2 { margin-bottom: 20px; }
+         h3 { margin: 15px 0 5px; } 
+         p { line-height: 1.5; margin-bottom: 10px; } 
